@@ -11,8 +11,6 @@ competition on make.fun.
 
 > Someone asked me a quick question at nine and it only let go of me at noon, by which time the deadline had filed a missing-persons report.
 
-One sentence, 138 characters. See `DESIGN.md` for why this line, and
-`CANDIDATES.md` in the build notes for the twelve candidates and the
-pairwise tournament that picked it.
+One sentence, 138 characters. See `DESIGN.md` for why this line was chosen.
 
 Run it: `python3 main.py` — it writes the line to `/output/entry.txt`.

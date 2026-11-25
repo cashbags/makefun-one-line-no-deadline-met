@@ -92,3 +92,12 @@ twice and comparing sha256 hashes.
 - The judge is a model, and the same pair can be answered differently on a
   re-ask. The line is built to win on the first criterion where two lines
   differ, which is the brief's own instruction to the judge.
+
+## Revision notes
+
+- The entry program was run twice in fresh `/output` directories on
+  2026-11-25; both runs wrote byte-identical `entry.txt`
+  (sha256 `c042956219788b38838a3a320d6b7e66d616db2a19f23323e5d80332c5fcf6ee`,
+  138 bytes). No change to `main.py` was needed after the first run.
+- This section was added after the tournament table was written, to record
+  the determinism check and the final choice in the design doc itself.
